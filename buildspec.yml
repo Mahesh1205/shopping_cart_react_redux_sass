@@ -5,7 +5,7 @@ phases:
     commands:
       #installs dependencies into the node_modules/ directory
       - npm install
-  pre-build:
+  pre_build:
     commands:
       - echo Pre Build started on `date`
       - echo Installing NPM dependecies
