@@ -5,7 +5,7 @@
   .product {
     background: $white;
     margin: 16px;
-    width: 200px;
+    width: 300px;
     border-radius: 2px;
     .product-image {
       overflow: hidden;
@@ -47,7 +47,7 @@
       text-align: center;
     }
     .product-action {
-      padding: 16px;
+      padding: 8px;
       button {
         width: 100%;
         transition: all 300ms ease-in;
