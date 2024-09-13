@@ -7,7 +7,6 @@ phases:
   pre_build:
     commands:
       #installs dependencies into the node_modules/ directory
-      - nvm use
       - npm install
   pre_build:
     commands:

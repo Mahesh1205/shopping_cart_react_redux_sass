@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux'
 import store from './store'
 import App from './containers/app';
-import HeaderC from './containers/header-container'
 //import ProductDetailPage from './components/products/product-detail'
-import CartContainer from './containers/cart-container'
+import CartContainer from './containers/cartContainer'
 import ProductDetailPage from './containers/product-detail-container'
 import LoginPage from './components/login/login'
 import RegisterPage from './components/register/register'
