@@ -3,11 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 18 
-  pre_build:
-    commands:
-      #installs dependencies into the node_modules/ directory
-      - npm install
+      nodejs: 12
   pre_build:
     commands:
       - echo Pre Build started on `date`
