@@ -23,3 +23,4 @@ artifacts:
   files:
      - build/**/*
      - package.json
+  name: $CODEBUILD_BUILD_NUMBER/my-artifacts
