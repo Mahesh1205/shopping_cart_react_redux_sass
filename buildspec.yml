@@ -1,4 +1,6 @@
 # Do not change version. This is the version of aws buildspec, not the version of your buldspec file.
+- name: "AWS CodeBuild run build" Action For GitHub Actions      
+  uses: aws-actions/aws-codebuild-run-build@v1.0.17,
 version: 0.2
 phases:
   install:
