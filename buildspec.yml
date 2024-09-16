@@ -17,6 +17,8 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - echo copy contents
+      - aws s3 sync s3://s3-github-cp/build s3://s3-github-cp
 # Include only the files required for your application to run.
 artifacts:
   files:
