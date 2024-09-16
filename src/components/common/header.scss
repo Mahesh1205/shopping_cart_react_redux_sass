@@ -9,13 +9,20 @@ header {
   width: 100%;
   z-index: 100;
   animation: slideUp 300ms linear;
+
   .container {
     display: flex;
     display: -webkit-flex;
-    max-width: 960px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 32px;
     justify-content: space-between;
+     & ::before {
+       content: "";
+     }
+  }
+  .container ::before {
+    clear: both;
   }
   @media (max-width: 991px) {
     padding: 16px;
@@ -54,7 +61,7 @@ header {
   }
   a{
      color: $primary-green;
-     font-weight: bolder;
+     //font-weight: bolder;
    }
   }
 
@@ -73,12 +80,19 @@ header {
   .cart {
     display: flex;
     display: -webkit-flex;
-    margin-left: 400px;
+    // flex-direction: column;
+    //margin-left: 400px;
     position: relative;
     z-index: 99;
     @media (max-width: 991px) {
       margin-left: 16px;
     }
+  }
+
+  .user-info {
+    color: $primary-green;
+    font-weight: bolder;
+    padding: 0 20px;
   }
   
   .cart-info table {
