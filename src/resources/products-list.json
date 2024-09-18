@@ -208,5 +208,12 @@
       "price": 170,
       "image": "https://res.cloudinary.com/sivadass/image/upload/v1493620045/dummy-products/walnuts.jpg",
       "category": "nuts"
+    },
+ {
+      "id": 31,
+      "name": "Walnuts - 1 Kg",
+      "price": 800,
+      "image": "https://res.cloudinary.com/sivadass/image/upload/v1493620045/dummy-products/walnuts.jpg",
+      "category": "nuts"
     }
   ]
