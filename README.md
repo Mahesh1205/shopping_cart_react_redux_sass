@@ -1,3 +1,3 @@
-## React Redux Ecommerce Site 
+## React Redux Ecommerce Site with AWS Code Pipeline
 
 
